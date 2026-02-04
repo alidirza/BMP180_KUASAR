@@ -24,7 +24,7 @@ BMP180 barometrik basınç sensörü için geliştirilmiş, non-blocking (engell
 
 ### Manuel Kurulum:
 ```bash
-git clone https://github.com/your-username/BMP180_KUASAR.git
+git clone https://github.com/alidirza/BMP180_KUASAR.git
 ```
 Arduino libraries klasörüne kopyalayın: `~/Documents/Arduino/libraries/`
 
