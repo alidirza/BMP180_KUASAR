@@ -177,5 +177,9 @@ void BMP180_KUASAR::changeAddr(uint8_t address) {
 }
 
 bool BMP180_KUASAR::checkError() {
-    return _error;
+    if (_error) {
+        _error = false;
+        return true;
+    }
+    return false;
 }
